@@ -1,0 +1,308 @@
+.class {
+    background-attachment: fixed;
+    background-size: 1355px;
+    background-repeat: no-repeat;
+}
+
+
+#titulo {
+    font-size: 4em;
+    text-align: center;
+    text-decoration: underline dotted red;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 130%;
+}
+
+.tamaño {
+    font-size: 3em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tamaño1 {color: blue;
+    font-size: 2em;
+    background-color: orange;
+    border: 10px solid black;
+    text-align: center;
+    width: 120%;
+}
+
+.preparación {font-size: 100%;
+    color: red;
+    text-align: center;
+    background-color: green;
+    border: 10px solid blue;
+}
+
+.tamaño2 {color: blue;
+    font-size: 2em;
+    background-color: orange;
+    border: 10px solid black;
+    text-align: center;
+    width: 120%;
+}
+
+header {
+    background: green;
+    width: 118vw;
+    height: 200%;
+    text-align: center;
+    border: 10px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 700px) {
+    header {
+      background: white;
+    }
+}
+
+@media (min-width: 800px) {
+    header {
+        background: rgb(114, 165, 42);
+    }
+}
+
+nav {
+    background: red;
+    text-align: left;
+    width: 120%;
+    height: 100%;
+    border: 30px solid blue;
+}
+
+nav:hover {
+    background-color: orange;
+}
+
+aside {
+    background: red;
+    width: 120%;
+    height: 100%;
+    text-align: center;
+    border: 30px solid grey;
+}
+
+
+footer {
+    background: greenyellow;
+    width: 120vw;
+    height: 140vh;
+    border: 18px solid brown;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+img {
+    background: red;
+    max-width: 100%;
+    border-width: 100%;
+    vertical-align: text-bottom;
+    transition: 1s linear;
+}
+
+img:hover{
+    width: 300px;
+    border-radius: 20px;
+    -webkit-transform: scale(.5);
+    transform: scale(.5);
+    -webkit-transform: rotate(360deg);
+     transform: rotate(360deg);
+     border-style: solid;
+  border-color: #95A5A6;
+  border-color: #000;
+}
+
+.imagen {
+    text-align: right;
+}
+
+#perfil {color:red;
+    font-size: 400%;
+    text-align: center;
+    text-decoration: underline dotted red;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    animation-name: logoAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: initial;
+    transition: color 2s linar 1s;
+    transition: font-size 1s ease;
+}
+
+@keyframes logoAnimation {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    20%,80% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100px);}
+  }
+
+#perfil:hover{
+    color:yellow;
+    font-size: 28px;
+}
+
+.icono {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#iconoperfil {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+.imagen1 {
+    position: fixed;
+    right: 50px;
+    bottom: 35px;
+}
+
+.tamaño3 {
+    font-size: 2rem;
+    width: 120%;
+    text-align: center;
+}
+
+.tamaño4 {
+    font-size: 2em;
+    text-align: center;
+    width: 120%;
+}
+
+@font-face {
+    font-family: "guitarra";
+    src: url("../fuentes/Freehand-Regular.ttf")
+    format('Freehand');
+}
+
+p {
+    font-family: 'Freehand', cursive;
+    font-size: 140%;
+}
+
+@font-face {
+    font-family: "guitarra";
+    src: url("../fuentes/Freehand-Regular.ttf")
+    format('Freehand');
+}
+
+.tamaño3 {font-family: 'Freehand', cursive;}
+
+@font-face {
+    font-family: "guitarra";
+    src: url("../fuentes/Freehand-Regular.ttf")
+    format('Freehand');
+}
+
+.tamaño4 {font-family: 'Freehand', cursive;}
+
+@font-face {
+    font-family: "guitarra";
+    src: url("../fuentes/Freehand-Regular.ttf")
+    format('Freehand');
+}
+
+.tamaño1 {font-family: 'Freehand', cursive;}
+
+h3 {
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3 a {
+    font-size: 3.99rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 400%;
+    background-color: pink;
+    width: 120%;
+}
+
+a:hover {
+    color: rgb(238, 255, 0);
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 700px) {
+    .objeto1 {
+              display: none;
+  }
+}
+
+.objeto1 {
+    text-align: right;
+    height: 150px;
+    width: 30%;
+     }
+
+@media (min-width: 700px) {
+    .amigoscomiendoempanadas {
+                 display: none;
+      }
+    }
+
+@media (max-width: 1000px) {
+    nav {
+        background-color: yellow;
+    }
+    
+}
+
+.cambiar
+{
+    border: none;
+    color:#117864;
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-align: left;
+    -webkit-transition: font-size 1s ease;
+  transition: font-size 1s ease;
+}
+
+.cambiar:hover{
+    font-size: 28px;
+}
+
+iframe{
+    -webkit-transition: 1s linear;
+     transition: 1s linear;
+}
+
+iframe:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+  padding: 30px;
+}

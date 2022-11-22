@@ -1,0 +1,11 @@
+nav {
+    background: red;
+    text-align: left;
+    width: 120%;
+    height: 100%;
+    border: 30px solid blue;
+}
+
+nav:hover {
+    background-color: orange;
+}

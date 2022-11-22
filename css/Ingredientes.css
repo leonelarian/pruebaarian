@@ -1,0 +1,76 @@
+.tamaño1 {color: blue;
+    font-size: 2em;
+    background-color: orange;
+    border: 10px solid black;
+    text-align: center;
+    width: 125%;
+}
+
+.tamaño {
+    font-size: 3em;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.tamaño2 {color: blue;
+    font-size: 2em;
+    background-color: orange;
+    border: 10px solid black;
+    text-align: center;
+    width: 125%;
+}
+
+.tamaño3 {
+    font-size: 2rem;
+    width: 125%;
+    text-align: center;
+}
+
+.tamaño4 {
+    font-size: 2em;
+    text-align: center;
+    width: 125%;
+}
+
+@font-face {
+    font-family: "guitarra";
+    src: url("../fuentes/Freehand-Regular.ttf")
+    format('Freehand');
+}
+
+.tamaño3 {font-family: 'Freehand', cursive;}
+
+@font-face {
+    font-family: "guitarra";
+    src: url("../fuentes/Freehand-Regular.ttf")
+    format('Freehand');
+}
+
+.tamaño4 {font-family: 'Freehand', cursive;}
+
+@font-face {
+    font-family: "guitarra";
+    src: url("../fuentes/Freehand-Regular.ttf")
+    format('Freehand');
+}
+
+.tamaño1 {font-family: 'Freehand', cursive;}
+
+#titulo {color:red;
+    font-size: 4em;
+    text-align: center;
+    text-decoration: underline dotted red;
+    display: flex;
+    flex-direction: column-reverse;
+    width: 130%;
+}
+
+section {
+    background: pink;
+    width: 300%;
+    height: 100%;
+    text-align: center;
+    border: 20px solid red;
+    display: inline-block;
+    padding-left: 10px;
+}
